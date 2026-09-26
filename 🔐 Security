@@ -1,0 +1,13 @@
+Career Stream does not attempt to bypass:
+
+CAPTCHA
+WAF
+Cloudflare
+Akamai
+Authentication
+SSO
+OTP
+Other access controls
+
+When a legitimate public source cannot be accessed, the system
+preserves source integrity and reports the appropriate source status.

@@ -1,0 +1,20 @@
+# Final Project Positioning
+
+For your **BCA final-year project, I would describe Career Stream in one sentence as:
+
+Career Stream is a full-stack, multi-source early-career job aggregation platform that automatically collects, validates, filters, normalizes, deduplicates and synchronizes job listings from company career sources, then provides personalized discovery and direct official application redirection through a React-based web application.**
+
+And your **three strongest technical points** to emphasize in the viva are:
+
+1. Multi-provider connector architecture**
+
+Different companies → different ATS → one unified job model.
+
+2. Reliable data pipeline
+
+```text
+Fetch → Validate → Filter → Normalize → Deduplicate → Upsert → Reconcile
+
+3. Source integrity
+
+Career Stream doesn't fabricate jobs and doesn't bypass company security controls; it preserves the relationship between the aggregated listing and the official application source.

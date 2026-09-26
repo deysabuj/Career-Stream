@@ -1,0 +1,23 @@
+career-stream/
+│
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── services/
+│       ├── hooks/
+│       └── utils/
+│
+├── backend/
+│   ├── prisma/
+│   └── src/
+│       ├── connectors/
+│       ├── controllers/
+│       ├── routes/
+│       ├── services/
+│       ├── sync/
+│       ├── middleware/
+│       └── types/
+│
+├── README.md
+└── package.json
