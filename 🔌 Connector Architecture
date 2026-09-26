@@ -1,0 +1,24 @@
+Career Stream uses a provider-based connector architecture.
+
+Current provider types include:
+
+Workday
+Greenhouse
+Amazon/custom
+Browser-based public source handling
+
+Each connector converts source-specific data into a common job structure.
+
+Source
+  ↓
+Connector
+  ↓
+RawJob
+  ↓
+Validation
+  ↓
+Experience Filter
+  ↓
+Normalization
+  ↓
+Database
