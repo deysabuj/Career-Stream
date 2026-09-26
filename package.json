@@ -1,0 +1,13 @@
+{
+  "name": "career-stream",
+  "version": "2.0.0",
+  "description": "Career Stream - Early Career Job Aggregation Platform",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "connectors:diagnose": "npm --prefix backend run connectors:diagnose",
+    "sync:all": "npm --prefix backend run sync:all"
+  }
+}
