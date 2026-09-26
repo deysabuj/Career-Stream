@@ -1,0 +1,14 @@
+PostgreSQL stores:
+
+Users
+Companies
+Jobs
+Saved Jobs
+Applications
+Recommendations
+Notifications
+Sync History
+
+Job uniqueness is maintained using:
+
+companyId + externalJobId
