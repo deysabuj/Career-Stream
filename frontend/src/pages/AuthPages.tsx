@@ -41,8 +41,12 @@ export const AuthPages: React.FC = () => {
       <div className="w-full max-w-md bg-slate-900/80 border border-slate-800 rounded-3xl p-8 shadow-2xl shadow-sky-950/40 space-y-6">
         {/* Brand Header */}
         <div className="text-center space-y-2">
-          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-brand-600 to-sky-400 flex items-center justify-center mx-auto text-white shadow-lg shadow-sky-500/20">
-            <Sparkles className="w-6 h-6" />
+          <div className="w-14 h-14 rounded-2xl p-0.5 bg-gradient-to-tr from-amber-500/30 to-orange-500/30 mx-auto shadow-xl shadow-amber-500/20 border border-amber-500/30 overflow-hidden">
+            <img 
+              src="/logo.png" 
+              alt="Career Stream" 
+              className="w-full h-full object-cover rounded-[14px]" 
+            />
           </div>
           <h2 className="text-2xl font-extrabold text-white">
             {isSignup ? 'Create Student Account' : 'Welcome to Career Stream'}

@@ -10,9 +10,11 @@ export const Footer: React.FC = () => {
           {/* Brand Vision */}
           <div className="md:col-span-2 space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-amber-500 via-orange-500 to-amber-400 flex items-center justify-center text-black font-extrabold">
-                <Sparkles className="w-4 h-4" />
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="Career Stream" 
+                className="w-8 h-8 rounded-lg object-cover shadow-md shadow-amber-500/20 border border-amber-500/30" 
+              />
               <span className="font-extrabold text-lg text-white tracking-tight">
                 Career<span className="text-amber-500">Stream</span>
               </span>

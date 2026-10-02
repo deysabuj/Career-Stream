@@ -37,9 +37,11 @@ export const Navbar: React.FC = () => {
         {/* Brand Logo */}
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-500 via-orange-500 to-amber-400 flex items-center justify-center shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
-              <Sparkles className="w-5 h-5 text-black font-extrabold" />
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Career Stream" 
+              className="w-9 h-9 rounded-xl object-cover shadow-lg shadow-amber-500/20 border border-amber-500/30 group-hover:scale-105 transition-transform" 
+            />
             <div className="flex flex-col">
               <span className="font-extrabold text-lg text-white tracking-tight leading-none group-hover:text-amber-400 transition-colors">
                 Career<span className="text-amber-500">Stream</span>
